@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh S</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Lokesh S</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="sub-nav">
+        <div class="logo">Lokesh S</div>
+        <div class="sub-menu">
+            <div class="sub-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+    <div class="section-img-container">
+        <img src="./assets/Loki.png" class="circle-img" alt="Lokesh S profile picture">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Lokesh S</h1>
+        <p class="section-text-p2">Java Fullstack Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">My Resume</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+        </div>
+
+        <div id="social-container">
+            <img src="./assets/linkedin.png" 
+            alt="My LinkedIn"
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/lokesh-s-a1459723b/'">
+
+            <img src="./assets/github.png" 
+            alt="My Github"
+            class="icon" 
+            onclick="location.href='https://github.com/Lokesh1207'">
+        </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-img-container">
+                <img 
+                src="./assets/loki-aboutme.jpg" 
+                alt="Profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png"
+                        alt="Education icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.E. Electronics and Communication Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Aspiring software developer with strong expertise in backend development using Spring Boot. Proficient in building robust RESTful APIs and managing relational databases. Skilled in writing clean, maintainable code with strong
+problem-solving ability to tackle real-world challenges. Demonstrates hands-on experience in designing scalable and
+efficient solutions through real-world projects. Passionate about leveraging technical skills to contribute to impactful,
+high-performance applications while adhering to industry best practices.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <div class="heading">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        </div>
+        <div class="skills-details-container">
+            <div class="about-containers">
+            <div class="details-container">
+                <h2 class="skills-subtitle">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>React.js</h3>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="details-container">
+                <h2 class="skills-subtitle">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Java</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Spring Boot</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Spring Security</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Microservices</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Rest APIs</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>MySQL</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>PostgreSql</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="details-container">
+                <h2 class="skills-subtitle">Version Control & Tools</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Git</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>GitHub</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Swagger</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Postman</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                        alt="Skills icon"
+                        class="icon">
+                        <div>
+                            <h3>Docker</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project1.png"
+                    alt="Project 1"
+                    class="project-img">
+                </div>
+                <h2 class="skills-subtitle project-title">Gold Loan Management System</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Lokesh1207/bankersync_v2')">Github</button> 
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://bankersync-v2.vercel.app/landing')">LiveDemo</button>
+                </div>
+                <p>• Built backend REST APIs for customer registration, loan creation, EMI scheduling and payments.</p>
+                <p>•Integrated automated email notifications to clients for loan updates and EMI reminders.</p>
+                <p>• Implemented JWT-based authentication with role-based access control (RBAC) for User and Admin roles, thereby
+                ensuring robust authorization throughout the application.</p>
+                <p>• Ensured seamless deployment using Docker and followed clean code practices across services.</p>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project2.png"
+                    alt="Project 2"
+                    class="project-img">
+                </div>
+                <h2 class="skills-subtitle project-title">College Utility Platform</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Lokesh1207/campease')">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://campease-six.vercel.app/landing')">LiveDemo</button>
+                </div>
+                <p>• Developed a web application to simplify college life, featuring key modules such as Lost & Found, Placement Reviews, and Notes Sharing to efficiently support student needs.</p>
+                <p>• Implemented JWT-based authentication to ensure secure user access and data integrity.</p>
+                <p>• Built and maintained scalable RESTful APIs for efficient communication between frontend and backend services.</p>
+                <p>• Optimized user experience through responsive UI design, ensuring compatibility across devices.</p>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="Email icon"
+                class="icon contact-icon email-icon">
+                <p><a href="mailto:logesh120704@gmail.com.com">logesh120704@gmail.com</a></p>
+            </div>
+            
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" 
+                    alt="LinkedIn icon"
+                    class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/lokesh-s-a1459723b/">LinkedIn</a></p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div c lass="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Lokesh S. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
